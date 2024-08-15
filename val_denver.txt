@@ -1,0 +1,272 @@
+2024-08-10 01:11:21,677 - INFO - 
+
+
+
+
+2024-08-10 01:11:21,677 - INFO - start the evaluate semantic.
+2024-08-10 01:11:21,677 - INFO - query source is as follows.
+2024-08-10 01:11:21,677 - INFO - [{'episode_id': 'PrYssW3hS8I', 'episode_title': 'Byte-Sized Security: How to Deploy a Minimum Viable Secure Crypto Product in 2024 | Kevin Costello', 'episode_url': 'https://www.youtube.com/watch?v=PrYssW3hS8I', 'created_at': '2024-02-26T00:00:00.000Z', 'company_name': 'Highland Security', 'segment_start_time': 502.985, 'segment_end_time': 559.373, 'text': "Tradify is looking more of like, do you have the ability to actively respond? Take USDC, for example, that can blacklist addresses that are sanctioned or that were involved in a hack. They're looking for those types of capabilities. They're also looking for you to have some kind of strategy when it comes to crisis management or managed response capabilities and what you can actually do. And first and foremost, on this entire list, they want to make sure that they limit their exposure to section entities, which means if you have controls that can help them do that, you're much more attractive. Now, here's where that does not necessarily map with the crypto natives. They're much more accepting of decentralized protocols and capabilities. They want to see some DAO governance. They probably want to participate in that DAO governance. And they want enforcement of things like multi-sig, time locks, et cetera, for things like code changes. Now, there are a lot more examples of this that we'll be able to share after the presentation, but here's just some things that you can look at that might inform your strategy.", 'speaker': 'Ryan Spanier', 'segment_id': 10, 'doc_id': 'PrYssW3hS8I.10'}, {'episode_id': 'NxbWt4Q9P4w', 'episode_title': '#ETHDen24 - Coral - Decentralization Is Really Hard 2024-03-02 17:49', 'episode_url': 'https://www.youtube.com/watch?v=NxbWt4Q9P4w', 'created_at': '2024-03-02T00:00:00.000Z', 'company_name': '__OTHERS__', 'segment_start_time': 8365.174, 'segment_end_time': 8370.257, 'text': 'Absolutely. So join Coinage Co-op and stay tuned.', 'speaker': 'Yev Muchnik', 'segment_id': 97, 'doc_id': 'NxbWt4Q9P4w.97'}, {'episode_id': 'onWVGMkrTdQ', 'episode_title': 'Breaking Down an NFT to Its Atomic Level | Benny Giang - FUTURE PRIMITIVE', 'episode_url': 'https://www.youtube.com/watch?v=onWVGMkrTdQ', 'created_at': '2024-03-01T00:00:00.000Z', 'company_name': 'Future Primitive', 'segment_start_time': 1063.902, 'segment_end_time': 1148.685, 'text': "So the whole idea was that all the NFT on mainnet or on other chains had a TBA account address. Then we built version 3, where now this is the current state of things. If you have an asset on mainnet, you can actually execute a transaction on Polygon and Optimism. And the thing you cannot do right now is have a Polygon NFT executed mainnet transaction, so this is not possible at the moment. And so we're actually, we have announced earlier this week that we're forming a partnership with Layer Zero and they've been an incredible partner in opening up, you'll see the next slide, it's going to be mind-blowing, the amount of interconnectivity that's just going to mind-blow every NFT that's out there. So now we're in a reality where we have token-bound version 3 with Layer Zero version 2, where now you have a noun on Ethereum and you can effectively transact not only 2 and L2, but L2 to back to the main net, or L2 to L2. You can see how crazy those arrows are. And it's about to get really, really fun with this new. So this thing's going to be pushed, v3 plus layer 0 version 2, very shortly, I think in the next week or so. And so anyway, we think that TBAs are a fundamental EVM paradigm. It's here to stay. It's a staple.", 'speaker': 'Benny Giang', 'segment_id': 14, 'doc_id': 'onWVGMkrTdQ.14'}]
+2024-08-10 01:11:21,678 - INFO - query is as follows.
+2024-08-10 01:11:21,678 - INFO - query_string='What is the key objective of DeFi according to Slater Heil?' size=5 index_name='eth_denver' custom_fields=None version=Version(major=0, minor=5, patch=2) results=None
+2024-08-10 01:11:21,678 - INFO - 85251eBKFqI.2
+2024-08-10 01:11:21,678 - INFO - 85251eBKFqI.0
+2024-08-10 01:11:21,678 - INFO - Gnb26lTNHLk.71
+2024-08-10 01:11:21,678 - INFO - 85251eBKFqI.7
+2024-08-10 01:11:21,678 - INFO - 02ivZ4PpyWo.7
+2024-08-10 01:11:21,681 - INFO - Promt_docs as follows.
+
+2024-08-10 01:11:21,681 - INFO - ItemId: 0
+Talk Title: The Spectrum of Stablecoin Permissioning, an Argument for Doubling Down on Decentralization | Slater
+Speaker: Slater Heil
+Text: Like why bring these on-chain, sorry, why bring these bank liabilities, these IOUs of dollars into the on-chain ecosystem? The first and foremost reason is that counterparty risk is the biggest hidden risk in all of traditional finance, right? There's the classic saying, know thy counterparty, because in stressful black swan market situations, that's really what ends up getting you, even at a large scale. When your counterparty blows up, there's not a whole lot that you can do about it, even though it generally only happens in pretty extreme black swan events. So the point of DeFi from a first principles level is that we can trade off counterparty risk for smart contract risk. Instead, we can write rules with systems that are going to self-execute and do exactly what they say they are going to do. So we no longer have to trust a counterparty to do what they say they're going to do.
+
+ItemId: 1
+Talk Title: The Spectrum of Stablecoin Permissioning, an Argument for Doubling Down on Decentralization | Slater
+Speaker: Slater Heil
+Text: Everybody. Thank you all for being here. I'm Slater Heil. I'm the founder of Composable Corp and a few different protocols. The one in question here being StakeUp. It's a yield-bearing stablecoin with Treasury bills as its backing. And I wanted to talk today about kind of the first principles of stablecoin. What really is a stablecoin? How does permissioning work within stablecoin systems? And how do these RWA integrations that have become very trendy lately kind of play into that permissioning spectrum? So what really is a stablecoin? I think the best analog for the regular person is kind of like a bank deposit or a bank liability. Basically, it's a system where collateral exists and carries risks of redeemability for $1 related to its mechanisms of issuance and redemption, its collateralization, and its accessibility. And those risks play out in very different ways depending on if it's a more centralized system, like a bank, or if it's a more decentralized system, like a protocol. So just to make a few examples there, right, the risks of a bank deposit are pretty clear and well understood.
+
+ItemId: 2
+Talk Title: ETHDenver24 - Submarine Stage - Zero-Knowledge Proof in Web3 Identityh
+Speaker: Slater Heil
+Text: Hey everybody. Thank you all for being here. I'm Slater Heil. I'm the founder of Composable Corp. and a few different protocols. The one in question here being StakeUp. It's a yield-bearing stablecoin with treasury bills as its backing. And I wanted to talk today about kind of the first principles of stablecoin. What really is a stablecoin? How does permissioning work within stablecoin systems? And how do these RWA integrations that have become very trendy lately kind of play into that permissioning spectrum? So what really is a stablecoin? I think the best analog for the regular person is kind of like a bank deposit or a bank liability. Basically, it's a system where collateral exists and carries risks of redeemability for $1 related to its mechanisms of issuance and redemption, its collateralization, and its accessibility. And those risks play out in very different ways depending on if it's a more centralized system, like a bank, or if it's a more decentralized system, like a protocol.
+
+ItemId: 3
+Talk Title: The Spectrum of Stablecoin Permissioning, an Argument for Doubling Down on Decentralization | Slater
+Speaker: Slater Heil
+Text: Instead, we can guarantee we get the right output from our inputs using smart contracts. So, the big trend of the year so far has been yield-bearing stablecoins. And the reason I wanted to give this talk is because I think there's fair reason to be concerned about the decentralization trade-offs that occur for most yield-bearing stablecoin models. The trend, however, is very positive, right? The ethos of Web3 is to share value with your users as much as possible. So seeing stablecoin issuers go from a model of hoarding all the yield from the backing collateral to now sharing that yield with their users is overall a very positive trend. However, the trade-off is centralization in a lot of cases, as well as KYC constraints. So, KYC constraints, period, are, I think, generally against the ethos of Web3, but more important from the composability perspective, if your token has a whitelisted, permissioned transferring system, it just can't be compatible with DeFi, because DeFi is permissionless by nature.
+
+ItemId: 4
+Talk Title: Realism vs. Idealism: Privacy Pools and the Fight for DeFi's Future | Zak Cole | Ameen Soleimani
+Speaker: Thania Charmani
+Text: And I think one of the most interesting aspects of these systems is the way that they promote scalability of DeFi, and they also promote practical aspects of how this could be used and how they could promote broader use. Zak, you want to tell us a little bit about that?
+2024-08-10 01:11:24,313 - INFO - {
+  "results": [
+    {
+      "item_id": 0,
+      "reason": "Discusses the trade-off between counterparty risk and smart contract risk, which is a key objective of DeFi.",
+      "choice": "relevant"
+    },
+    {
+      "item_id": 1,
+      "reason": "Focuses on the principles of stablecoins and permissioning, but does not directly address the key objective of DeFi.",
+      "choice": "somewhat relevant"
+    },
+    {
+      "item_id": 2,
+      "reason": "Similar to item 1, it discusses stablecoins and permissioning but does not directly address the key objective of DeFi.",
+      "choice": "somewhat relevant"
+    },
+    {
+      "item_id": 3,
+      "reason": "Mentions the trade-offs in decentralization and the ethos of Web3, which aligns with the key objective of DeFi.",
+      "choice": "relevant"
+    },
+    {
+      "item_id": 4,
+      "reason": "Does not discuss DeFi objectives according to Slater Heil.",
+      "choice": "off topic"
+    }
+  ]
+}
+2024-08-10 01:11:24,320 - INFO - rank_scores is as follows
+2024-08-10 01:11:24,320 - INFO - tensor([0.6770])
+2024-08-10 01:11:24,321 - INFO - uniqueness_scores is as follows
+2024-08-10 01:11:24,321 - INFO - tensor([1.])
+2024-08-10 02:04:36,935 - INFO - 
+
+
+
+
+2024-08-10 02:04:36,935 - INFO - start the evaluate semantic.
+2024-08-10 02:04:36,936 - INFO - query source is as follows.
+2024-08-10 02:04:36,936 - INFO - [{'episode_id': 'gHMxi-TdwM8', 'episode_title': "Neptune Stage #BUIDL-02/28 1025-Michael O'Rourke - Grove Redefines Our Very Existence Inc 2024-02-28 17:41", 'episode_url': 'https://www.youtube.com/watch?v=gHMxi-TdwM8', 'created_at': '2024-02-28T00:00:00.000Z', 'company_name': '__OTHERS__', 'segment_start_time': 6432.041, 'segment_end_time': 6441.748, 'text': 'Hey, I was wondering how you would ensure the privacy, like I send someone my model and then perhaps someone steals it and now there are disputes and stuff like that.', 'speaker': 'Participant', 'segment_id': 63, 'doc_id': 'gHMxi-TdwM8.63'}, {'episode_id': '5yyaf6dyUmA', 'episode_title': 'MotoswapBTC Mini-Summit', 'episode_url': 'https://www.youtube.com/watch?v=5yyaf6dyUmA', 'created_at': '2024-02-28T00:00:00.000Z', 'company_name': 'Motoswap', 'segment_start_time': 4635.856, 'segment_end_time': 4639.958, 'text': "Hey, even people who say Bitcoin is digital gold and that it's a savings technology.", 'speaker': 'Charlie', 'segment_id': 86, 'doc_id': '5yyaf6dyUmA.86'}, {'episode_id': 'NCPVTwsjeCo', 'episode_title': 'Dogfooding Technology at ETHDenver 2025 | Casey Gardiner, Fonz Olvera, John Paller, Kevin Marek', 'episode_url': 'https://www.youtube.com/watch?v=NCPVTwsjeCo', 'created_at': '2024-03-02T00:00:00.000Z', 'company_name': '__OTHERS__', 'segment_start_time': 1814.676, 'segment_end_time': 1815.836, 'text': "Yeah, we're all trying to figure it out.", 'speaker': 'Casey Gardiner', 'segment_id': 57, 'doc_id': 'NCPVTwsjeCo.57'}]
+2024-08-10 02:04:36,936 - INFO - query is as follows.
+2024-08-10 02:04:36,936 - INFO - query_string='What is the key objective of DeFi according to Slater Heil?' size=5 index_name='eth_denver' custom_fields=None version=Version(major=0, minor=5, patch=2) results=None
+2024-08-10 02:06:30,459 - INFO - 
+
+
+
+
+2024-08-10 02:06:30,459 - INFO - start the evaluate semantic.
+2024-08-10 02:06:30,459 - INFO - query source is as follows.
+2024-08-10 02:06:30,460 - INFO - [{'episode_id': 'ZiECPjIpcFk', 'episode_title': "Real Time Observability Reveals Ethereum's Unexpected Inner Workings | Matt Cutler - Blocknative", 'episode_url': 'https://www.youtube.com/watch?v=ZiECPjIpcFk', 'created_at': '2024-02-29T00:00:00.000Z', 'company_name': 'Blocknative', 'segment_start_time': 509.507, 'segment_end_time': 563.214, 'text': "How does this stuff work? Is your transaction being treated fairly? And again, this is why we need observability. So when we say who watches the Watchmen, it's really who watches the settlement, okay? So we have these builders who talk to relays, who deal with stuff for the public mempool, there's private order flow, searchers and validators, but there's also like now intents and bundlers and paymasters and pretty soon we're gonna have blob pools and bid pools and swaps and L2s and L1s and censorship and bridges and delays and OFAC, and these are all realities of the network today. all stuff that involves ephemeral data layers, there's no permanent record of what's going on, all of which contribute and combine to determine settlement, which transactions get included on the chain and in what order.", 'speaker': 'Matt Cutler', 'segment_id': 5, 'doc_id': 'ZiECPjIpcFk.5'}, {'episode_id': 'ZED3pNsLZ6Q', 'episode_title': 'Mask Network Mini Summit', 'episode_url': 'https://www.youtube.com/watch?v=ZED3pNsLZ6Q', 'created_at': '2024-02-29T00:00:00.000Z', 'company_name': 'Mask Network', 'segment_start_time': 13069.273, 'segment_end_time': 13073.362, 'text': "I have a question for you. What's the most exciting thing for you about squirrel?", 'speaker': 'Nancy Wu', 'segment_id': 308, 'doc_id': 'ZED3pNsLZ6Q.308'}, {'episode_id': 'TqRi5GJ9RS4', 'episode_title': '#ETHDen24 - Seamount - 02/03 - NextGen Stablecoins and the Omnichain Future 2024-03-02 17:49', 'episode_url': 'https://www.youtube.com/watch?v=TqRi5GJ9RS4', 'created_at': '2024-03-02T00:00:00.000Z', 'company_name': '__OTHERS__', 'segment_start_time': 17459.046, 'segment_end_time': 17549.278, 'text': 'So if you have ever developed a smart contract, you might have used something that is called only owner modifier. You can make your smart contracts ownable, right? There is a library for that in OpenZeppelin. Many people do it. So what only owner does is that whenever a particular method gets invoked, it checks whether the message sender, which is a context variable, environment variable that we have access to in Solidity, matches the address stored in some slot. But when this happens, there is some bytecode executed, right? So users have to pay gas for it, and you actually have to code the logic into the smart contract, which, depending on what exact logic you are coding in, it can actually be a lot of code, and so on and so on. What we are doing here in this declarative language and invariants, we are essentially giving the developers the opportunity to take this thing away from smart contracts. Because in this new setting, we would allow you, through this language, to say, hey, my invariant is that this particular method can only be called if message sender equals this. And you will make that known to the sequencer without the necessity to have that bytecode present in your smart contract itself. And then the sequencer will simulate every single transaction. If it notices that it actually violates the invariant, you have the certainty that it will not ever be included in the block, which can lead to simplification of many projects.', 'speaker': 'Martin Durker', 'segment_id': 252, 'doc_id': 'TqRi5GJ9RS4.252'}]
+2024-08-10 02:06:30,460 - INFO - query is as follows.
+2024-08-10 02:06:30,460 - INFO - query_string='How does asynchronous composability currently affect interoperability and security?' size=5 index_name='eth_denver' custom_fields=None version=Version(major=0, minor=5, patch=2) results=None
+2024-08-10 06:37:15,167 - INFO - 
+
+
+
+
+2024-08-10 06:37:15,167 - INFO - start the evaluate semantic.
+2024-08-10 06:37:15,167 - INFO - query source is as follows.
+2024-08-10 06:37:15,167 - INFO - [{'episode_id': 'zvFuXiJXfhQ', 'episode_title': 'Parallelizing EVM With Sei | Jayendra (Jay) Jog - Sei', 'episode_url': 'https://www.youtube.com/watch?v=zvFuXiJXfhQ', 'created_at': '2024-02-29T00:00:00.000Z', 'company_name': 'SeiNetwork', 'segment_start_time': 4.542, 'segment_end_time': 15.566, 'text': "All right, guys. It is late afternoon, and you've learned so much. So I'm very excited to announce our next speaker. Let's give Jayendra Jog a huge round of applause. Yeah.", 'speaker': 'SPEAKER_02', 'segment_id': 0, 'doc_id': 'zvFuXiJXfhQ.0'}, {'episode_id': '7WMr3Bl2NTA', 'episode_title': 'From Bits to Atoms: How DePIN Is Making Crypto Real | Shannon Wells - Livepeer | Rob Solomon - DIMO', 'episode_url': 'https://www.youtube.com/watch?v=7WMr3Bl2NTA', 'created_at': '2024-03-01T00:00:00.000Z', 'company_name': 'DIMO', 'segment_start_time': 255.345, 'segment_end_time': 325.892, 'text': "So as you mentioned, Deemo is a platform for cars. We allow anybody to turn their cars into smart devices and connect to the world's first open mobility platform that happens to be built on blockchain, kind of needs to be for us to actually be able to deliver this. What does that mean to have a smart car? If you have a car now, it's probably more like a flip phone or a landline in terms of how smart it is. You have a Tesla, it's kind of in that Blackberry territory. But we're here to usher in that iPhone moment for cars where connectivity, data identity, and a kind of a shared digital infrastructure for vehicles leads to an explosion of apps and use cases. You can think of it like you've been talking about web3 uber since I got into crypto years and years ago. We make that possible. Defy auto loans, actually the original idea for demo was you pull up to a parking garage, the sensors in the garage talk to your car, tell it where to go park, pulls your Ford in. You know, pulls a BMW out to pull your like just that kind of shared digital infrastructure to build these types of applications. That's what we're building and it could only really work with blockchain.", 'speaker': 'Rob Solomon', 'segment_id': 12, 'doc_id': '7WMr3Bl2NTA.12'}, {'episode_id': 'ONEkNCI2iyY', 'episode_title': 'Opening Ceremony Atlantis Stage | Full Session', 'episode_url': 'https://www.youtube.com/watch?v=ONEkNCI2iyY', 'created_at': '2024-02-29T00:00:00.000Z', 'company_name': '__OTHERS__', 'segment_start_time': 3846.511, 'segment_end_time': 3922.016, 'text': "So it's kind of new and new to the area here. I'm proudly wearing my Buffacorn socks today, which I got a few years ago at ETH Denver. And I want to thank everybody who made this event possible. It takes a lot of work. There's really no better place to celebrate the exciting opportunities of emerging technologies and blockchain and Web3. No better place than right here in Colorado and in the Western Stock Show Complex, kind of embodying that Western spirit. of innovation and entrepreneurship and thinking differently and breaking down barriers. In Colorado, we're proud that we foster an ecosystem of creativity and innovation to help make sure people can thrive. And we also, if you've noticed, crypto winter is over, crypto spring is here, and spring is here. It's beautiful outside, warm and sunny. I think it's 60 degrees today. Enjoy our beautiful Colorado weather. Before I was in public service, I was an entrepreneur, started a number of companies, ProFlowers, BlueMountain.com, co-founded TechStars, and I'm really excited by all of you who are founders and co-founders and co-op founders and shared founders of exciting deployments on the blockchain.", 'speaker': 'Governor Jared Polis', 'segment_id': 67, 'doc_id': 'ONEkNCI2iyY.67'}]
+2024-08-10 06:37:15,167 - INFO - query is as follows.
+2024-08-10 06:37:15,167 - INFO - query_string='What is the key objective of DeFi according to Slater Heil?' size=5 index_name='eth_denver' custom_fields=None version=Version(major=0, minor=5, patch=2) results=None
+2024-08-10 06:37:15,168 - INFO - 85251eBKFqI.2
+2024-08-10 06:37:15,168 - INFO - 85251eBKFqI.0
+2024-08-10 06:37:15,168 - INFO - Gnb26lTNHLk.71
+2024-08-10 06:37:15,168 - INFO - 85251eBKFqI.7
+2024-08-10 06:37:15,168 - INFO - 02ivZ4PpyWo.7
+2024-08-10 06:37:15,168 - INFO - Promt_docs as follows.
+
+2024-08-10 06:37:15,169 - INFO - ItemId: 0
+Talk Title: The Spectrum of Stablecoin Permissioning, an Argument for Doubling Down on Decentralization | Slater
+Speaker: Slater Heil
+Text: Like why bring these on-chain, sorry, why bring these bank liabilities, these IOUs of dollars into the on-chain ecosystem? The first and foremost reason is that counterparty risk is the biggest hidden risk in all of traditional finance, right? There's the classic saying, know thy counterparty, because in stressful black swan market situations, that's really what ends up getting you, even at a large scale. When your counterparty blows up, there's not a whole lot that you can do about it, even though it generally only happens in pretty extreme black swan events. So the point of DeFi from a first principles level is that we can trade off counterparty risk for smart contract risk. Instead, we can write rules with systems that are going to self-execute and do exactly what they say they are going to do. So we no longer have to trust a counterparty to do what they say they're going to do.
+
+ItemId: 1
+Talk Title: The Spectrum of Stablecoin Permissioning, an Argument for Doubling Down on Decentralization | Slater
+Speaker: Slater Heil
+Text: Everybody. Thank you all for being here. I'm Slater Heil. I'm the founder of Composable Corp and a few different protocols. The one in question here being StakeUp. It's a yield-bearing stablecoin with Treasury bills as its backing. And I wanted to talk today about kind of the first principles of stablecoin. What really is a stablecoin? How does permissioning work within stablecoin systems? And how do these RWA integrations that have become very trendy lately kind of play into that permissioning spectrum? So what really is a stablecoin? I think the best analog for the regular person is kind of like a bank deposit or a bank liability. Basically, it's a system where collateral exists and carries risks of redeemability for $1 related to its mechanisms of issuance and redemption, its collateralization, and its accessibility. And those risks play out in very different ways depending on if it's a more centralized system, like a bank, or if it's a more decentralized system, like a protocol. So just to make a few examples there, right, the risks of a bank deposit are pretty clear and well understood.
+
+ItemId: 2
+Talk Title: ETHDenver24 - Submarine Stage - Zero-Knowledge Proof in Web3 Identityh
+Speaker: Slater Heil
+Text: Hey everybody. Thank you all for being here. I'm Slater Heil. I'm the founder of Composable Corp. and a few different protocols. The one in question here being StakeUp. It's a yield-bearing stablecoin with treasury bills as its backing. And I wanted to talk today about kind of the first principles of stablecoin. What really is a stablecoin? How does permissioning work within stablecoin systems? And how do these RWA integrations that have become very trendy lately kind of play into that permissioning spectrum? So what really is a stablecoin? I think the best analog for the regular person is kind of like a bank deposit or a bank liability. Basically, it's a system where collateral exists and carries risks of redeemability for $1 related to its mechanisms of issuance and redemption, its collateralization, and its accessibility. And those risks play out in very different ways depending on if it's a more centralized system, like a bank, or if it's a more decentralized system, like a protocol.
+
+ItemId: 3
+Talk Title: The Spectrum of Stablecoin Permissioning, an Argument for Doubling Down on Decentralization | Slater
+Speaker: Slater Heil
+Text: Instead, we can guarantee we get the right output from our inputs using smart contracts. So, the big trend of the year so far has been yield-bearing stablecoins. And the reason I wanted to give this talk is because I think there's fair reason to be concerned about the decentralization trade-offs that occur for most yield-bearing stablecoin models. The trend, however, is very positive, right? The ethos of Web3 is to share value with your users as much as possible. So seeing stablecoin issuers go from a model of hoarding all the yield from the backing collateral to now sharing that yield with their users is overall a very positive trend. However, the trade-off is centralization in a lot of cases, as well as KYC constraints. So, KYC constraints, period, are, I think, generally against the ethos of Web3, but more important from the composability perspective, if your token has a whitelisted, permissioned transferring system, it just can't be compatible with DeFi, because DeFi is permissionless by nature.
+
+ItemId: 4
+Talk Title: Realism vs. Idealism: Privacy Pools and the Fight for DeFi's Future | Zak Cole | Ameen Soleimani
+Speaker: Thania Charmani
+Text: And I think one of the most interesting aspects of these systems is the way that they promote scalability of DeFi, and they also promote practical aspects of how this could be used and how they could promote broader use. Zak, you want to tell us a little bit about that?
+2024-08-10 06:37:18,323 - INFO - {
+  "results": [
+    {
+      "item_id": 0,
+      "reason": "Discusses the trade-off between counterparty risk and smart contract risk, which is a key objective of DeFi.",
+      "choice": "relevant"
+    },
+    {
+      "item_id": 1,
+      "reason": "Focuses on the principles of stablecoins and permissioning, but does not directly address the key objective of DeFi.",
+      "choice": "somewhat relevant"
+    },
+    {
+      "item_id": 2,
+      "reason": "Similar to item 1, it discusses stablecoins and permissioning but does not directly address the key objective of DeFi.",
+      "choice": "somewhat relevant"
+    },
+    {
+      "item_id": 3,
+      "reason": "Mentions the trade-offs in decentralization and the ethos of Web3, which aligns with the key objective of DeFi.",
+      "choice": "relevant"
+    },
+    {
+      "item_id": 4,
+      "reason": "Does not discuss DeFi objectives according to Slater Heil.",
+      "choice": "off topic"
+    }
+  ]
+}
+2024-08-10 06:37:18,325 - INFO - rank_scores is as follows
+2024-08-10 06:37:18,325 - INFO - tensor([0.6770])
+2024-08-10 06:37:18,326 - INFO - uniqueness_scores is as follows
+2024-08-10 06:37:18,326 - INFO - tensor([1.])
+2024-08-10 09:39:19,953 - INFO - 
+
+
+
+
+2024-08-10 09:39:19,954 - INFO - start the evaluate semantic.
+2024-08-10 09:39:19,954 - INFO - query source is as follows.
+2024-08-10 09:39:19,954 - INFO - [{'episode_id': 'LnhEa-lzBEc', 'episode_title': 'Closing Ceremony: Celebrity Judges, BUIDLathon Winners, Final Thoughts, and More!', 'episode_url': 'https://www.youtube.com/watch?v=LnhEa-lzBEc', 'created_at': '2024-03-03T00:00:00.000Z', 'company_name': '__OTHERS__', 'segment_start_time': 5539.405, 'segment_end_time': 5541.086, 'text': 'Awesome. Great hackathon project.', 'speaker': 'SPEAKER_39', 'segment_id': 223, 'doc_id': 'LnhEa-lzBEc.223'}, {'episode_id': 'TqRi5GJ9RS4', 'episode_title': '#ETHDen24 - Seamount - 02/03 - NextGen Stablecoins and the Omnichain Future 2024-03-02 17:49', 'episode_url': 'https://www.youtube.com/watch?v=TqRi5GJ9RS4', 'created_at': '2024-03-02T00:00:00.000Z', 'company_name': '__OTHERS__', 'segment_start_time': 18494.231, 'segment_end_time': 18568.513, 'text': "The Celestia chain is a Comet BFT chain, like a Tendermint chain. that has a validator set. The validator set signs over every block to give it finality. In some regards, this is similar to the Ethereum consensus protocol, where blocks are final after they receive votes from a cumulative at least 2 thirds of the stakers or voting power of the chain at a particular height. Okay, so if you want to know that some data is available on Celestia on your EVM chain, which we'll use Ethereum in this example, how would you do it? Well, like many bridges, you need to run a light client off the Celestia chain in the EVM. And how do you run a like client? You have a smart contract that verifies signatures and keeps track of voting power so that whenever it is relayed a new header, it checks to see, does the header actually have enough consensus on it? OK. I mean, this is like fairly standard like client stuff. At this point, nothing special is happening. But what guarantees does this provide?", 'speaker': 'John Adler', 'segment_id': 263, 'doc_id': 'TqRi5GJ9RS4.263'}, {'episode_id': '85251eBKFqI', 'episode_title': 'The Spectrum of Stablecoin Permissioning, an Argument for Doubling Down on Decentralization | Slater', 'episode_url': 'https://www.youtube.com/watch?v=85251eBKFqI', 'created_at': '2024-02-26T00:00:00.000Z', 'company_name': '__OTHERS__', 'segment_start_time': 90.404, 'segment_end_time': 156.642, 'text': "You often have duration risk, like we saw play out with Silicon Valley Bank and others in the last few years, where, let's say, you're holding a long-dated bond with a very low interest rate, and all of a sudden, all of your depositors want to redeem they're effectively stable coins or they're deposits for an actual dollar, you have to go and sell that collateral. And if that collateral is sitting at a loss, there's a chance not all users are going to be made whole. So that's kind of how a traditional banking system works. There are still, of course, clear rule sets, but it's based a lot on human discretion within those rule sets, which affects the risk of actually being able to redeem for a dollar. With a protocol or a stablecoin, generally, depending on how decentralized it is, you have a much greater guarantee of redeemability, but of course it still does carry risks. And again, those risks are related to the level of decentralization of the different components of the stablecoin system. So before we get into the details of different types of stable coins, I want to talk about just what's the point of DeFi, right?", 'speaker': 'Slater Heil', 'segment_id': 1, 'doc_id': '85251eBKFqI.1'}]
+2024-08-10 09:39:19,954 - INFO - query is as follows.
+2024-08-10 09:39:19,954 - INFO - query_string='How does asynchronous composability currently affect interoperability and security?' size=5 index_name='eth_denver' custom_fields=None version=Version(major=0, minor=5, patch=2) results=None
+2024-08-10 12:41:01,908 - INFO - 
+
+
+
+
+2024-08-10 12:41:01,908 - INFO - start the evaluate semantic.
+2024-08-10 12:41:01,908 - INFO - query source is as follows.
+2024-08-10 12:41:01,909 - INFO - [{'episode_id': 'TUCHkExPURw', 'episode_title': '#ETHDen24 - Coral - Filtering the Signal from the Noise 2024-03-01 18:15', 'episode_url': 'https://www.youtube.com/watch?v=TUCHkExPURw', 'created_at': '2024-03-01T00:00:00.000Z', 'company_name': '__OTHERS__', 'segment_start_time': 27380.705, 'segment_end_time': 27413.507, 'text': "So I run a startup and we're a smaller team, but I would do all my work at night. So I would play the game during the day, then at night I would just stay up all night getting caught up on work. So I was averaging two hours a night. At one point I was in Dallas, Texas for some meetings. I'm from North Carolina, so all the way in Dallas. And I was playing Flappy Bird in the bathroom in between the meetings. I didn't want to let these guys know what I was doing. I was in the back of my laptop playing Flappy Bird trying to get the score. And then I had a tribe mate on my tribe who ended up giving me a ride to the airport so we could talk strategy.", 'speaker': 'Logos', 'segment_id': 407, 'doc_id': 'TUCHkExPURw.407'}, {'episode_id': 'LwhOrvHcOAo', 'episode_title': 'Community Building Through Human-First Developer Relations | Crystal Street & Francesco Andreoli', 'episode_url': 'https://www.youtube.com/watch?v=LwhOrvHcOAo', 'created_at': '2024-03-02T00:00:00.000Z', 'company_name': '__OTHERS__', 'segment_start_time': 2448.186, 'segment_end_time': 2448.347, 'text': 'Yeah.', 'speaker': 'Crystal Street', 'segment_id': 48, 'doc_id': 'LwhOrvHcOAo.48'}, {'episode_id': 'Buc5TkuNi-0', 'episode_title': 'Intuition Towards a Trustful Interaction Layer | Billy Luedtke - Intuition', 'episode_url': 'https://www.youtube.com/watch?v=Buc5TkuNi-0', 'created_at': '2024-03-02T00:00:00.000Z', 'company_name': 'Intuition', 'segment_start_time': 782.881, 'segment_end_time': 886.658, 'text': "Do we store it in Twitter servers? Do we store it on Amazon servers? Probably not. So what we next need to do is we need to decouple data and algorithms from platforms. So what if instead of all the data living in the silos of the applications, we had this single, unified, verifiable data lake that all applications were pushing data to and all applications were reading data from? Then every app could very easily leverage the data of every other app. So example of this is right now, when I go to interact with Twitter, I'm interacting with Twitter data and the Twitter algorithm. I can't opt into using other data, and I can't opt out of the Twitter algorithm and toggle to something else. I have to use their stuff. But I would love to be able to toggle to a different algorithm. I'd love to be able to toggle to, if I'm arguing with a flat earther, I'd love to toggle to see their feed, and maybe the reason they think the earth is flat is because their whole feed is an echo chamber of people saying the earth is flat. One of the reasons why I think this is important and the other is if we decouple the data and algorithms from the platforms, then the platforms become less entrenched and there's less vendor lock-in because I don't really want to leave Twitter or something like that, because I've spent a lot of time and energy and attention kind of building up my data and my reputation and my following over there. And so even if there's better user experiences elsewhere, I don't even get to try them out, because I'm just never going to leave Twitter. And so it doesn't leave room for experimentation.", 'speaker': 'Billy Luedtke', 'segment_id': 12, 'doc_id': 'Buc5TkuNi-0.12'}]
+2024-08-10 12:41:01,909 - INFO - query is as follows.
+2024-08-10 12:41:01,909 - INFO - query_string='What steps should a person take immediately for handling digital assets upon realizing their mortality?' size=5 index_name='eth_denver' custom_fields=None version=Version(major=0, minor=5, patch=2) results=None
+2024-08-10 12:41:01,909 - INFO - aFKhwxdKzw0.15
+2024-08-10 12:41:01,909 - INFO - aFKhwxdKzw0.16
+2024-08-10 12:41:01,909 - INFO - yUAqH77yZaE.90
+2024-08-10 12:41:01,909 - INFO - yUAqH77yZaE.91
+2024-08-10 12:41:01,909 - INFO - aFKhwxdKzw0.18
+2024-08-10 12:41:01,912 - INFO - Promt_docs as follows.
+
+2024-08-10 12:41:01,912 - INFO - ItemId: 0
+Talk Title: Dying Is a B****: How to Beat the Grim Reaper With Your Digital Asset Organizers | Jacqueline Cooper
+Speaker: Jacqueline Cooper
+Text: Yeah. I agree with you. So first of all, a show of hands, how many of you actually have wills? Awesome. But those that don't have wills, now raise your hand. It's about 50-50. So when you do have a will, you still have to look at these parts. You have to really, and this is difficult, explicitly write down every digital asset you own. You really have to do a brain drop. And you have to specify how do you want this to be handled. Because I've had many conversations with individuals about whether the asset should be held or liquefied. And if you're not around and you don't give those details or those instructions in the will, then your executor or your family, who might not know anything about these assets, they might say, well, let's just sell it. And it might not be the best time to sell. So the other thing that we mentioned is how to access that, and we're going to be talking about that, as well as what should be done. So I know that Matthew Rogers, Amber Welch, and Laura Cole, there are a lot of different pieces to this. What do you think is the most important of this laundry list that we have here?
+
+ItemId: 1
+Talk Title: Dying Is a B****: How to Beat the Grim Reaper With Your Digital Asset Organizers | Jacqueline Cooper
+Speaker: Laura Cole
+Text: I think addressing the fact that you do have digital assets is the most important. I mean, who handles it? who's keeping track of it or who's got the power to the keys. Your attorney who writes your will might not want to be the keeper of the keys. I know a lot of wills, trusts, and estates attorneys that seek out my help, they don't want to be the custodian. They don't want that burden, that stress of trying to maintain that. You need a document that says what you have, and then you need a separate document or ability to get to that, because you don't want to have them necessarily in the same document, depending on who the fiduciary of your estate is.
+
+ItemId: 2
+Talk Title: ETHDenver24-Trident Stage: Unchaining DeFi With ERC-4626: The Tokenized Vault Standard
+Speaker: Jackie Cooper
+Text: Yeah. I agree with you. So first of all, a show of hands, how many of you actually have wills? Awesome. But those that don't have wills, now raise your hand. It's about 50-50. So when you do have a will, you still have to look at these parts. You have to really, and this is difficult, explicitly write down every digital asset you own. You really have to do a brain drop. And you have to specify how do you want this to be handled. Because I've had many conversations with individuals about whether the asset should be held or liquefied. And if you're not around and you don't give those details or those instructions in the will, then your executor or your family, who might not know anything about these assets, they might say, well, let's just sell it. And it might not be the best time to sell. So the other thing that we mentioned is how to access that, and we're going to be talking about that, as well as what should be done. So I know that Matt, Amber, and Laura, there are a lot of different pieces to this. What do you think is the most important of this laundry list that we have here?
+
+ItemId: 3
+Talk Title: ETHDenver24-Trident Stage: Unchaining DeFi With ERC-4626: The Tokenized Vault Standard
+Speaker: Laura Cole
+Text: I think addressing the fact that you do have digital assets is the most important. I mean, who handles it? who's keeping track of it or who's got the power to the keys. Your attorney who writes your will might not want to be the keeper of the keys. I know a lot of wills, trusts, and estates attorneys that seek out my help. They don't want to be the custodian. They don't want that burden, that stress of trying to maintain that. So now you need a document that says what you have, and then you need a separate document or ability to get to that. Because you don't want to have them necessarily in the same document, depending on who the fiduciary of your estate is.
+
+ItemId: 4
+Talk Title: Dying Is a B****: How to Beat the Grim Reaper With Your Digital Asset Organizers | Jacqueline Cooper
+Speaker: Matthew Rogers
+Text: I think people should evaluate, like, where on your priority list of things to do is this? So you could rank it on a scale of 1 to 10. I'm pretty busy today. Have I updated my digital asset repository and database? No, probably haven't. But first of all, be thinking to yourself, how high a priority is this for you? If you have children and heirs and a significant amount of crypto, it's probably fairly high on your priority list. And then if it is a higher priority list and you want to start like chiseling away at how you're going to address it, right? And really what are all those digital assets? Because previously they might have been called things like intangibles, right? A bunch of things that were unknown or some value in a name or some goodwill. The value of the goodwill or entitlements, that can all... Like there may be a lot of future, we all already know this, sort of future benefits sometimes to participating in these networks. So your wallet may have received a certain amount of benefits and be it from an airdrop or some other way you participated in something and maybe there's a future benefit or entitlement, those things would be thought through as well.
+2024-08-10 12:41:04,625 - INFO - {
+  "results": [
+    {
+      "item_id": 0,
+      "reason": "Discusses the importance of explicitly writing down digital assets and specifying how they should be handled in a will.",
+      "choice": "relevant"
+    },
+    {
+      "item_id": 1,
+      "reason": "Emphasizes the need to document digital assets and have a separate document for access, which is crucial for handling digital assets.",
+      "choice": "relevant"
+    },
+    {
+      "item_id": 2,
+      "reason": "Similar to item 0, it discusses the need to document digital assets and provide instructions for their handling.",
+      "choice": "relevant"
+    },
+    {
+      "item_id": 3,
+      "reason": "Similar to item 1, it emphasizes the importance of documenting digital assets and having a separate document for access.",
+      "choice": "relevant"
+    },
+    {
+      "item_id": 4,
+      "reason": "Discusses prioritizing the task of updating digital asset information and considering future benefits, which is relevant to handling digital assets.",
+      "choice": "relevant"
+    }
+  ]
+}
+2024-08-10 12:41:04,626 - INFO - rank_scores is as follows
+2024-08-10 12:41:04,626 - INFO - tensor([1.])
+2024-08-10 12:41:04,627 - INFO - uniqueness_scores is as follows
+2024-08-10 12:41:04,627 - INFO - tensor([1.])
+2024-08-15 11:32:17,967 - INFO - 
+
+
+
+
+2024-08-15 11:32:17,967 - INFO - start the evaluate semantic.
+2024-08-15 11:32:17,967 - INFO - query source is as follows.
+2024-08-15 11:32:17,967 - INFO - [{'episode_id': 'm5jJkvCG338', 'episode_title': 'Digital Self-Sovereignty in the Age of AI | Illia Polosukhin - NEAR Foundation', 'episode_url': 'https://www.youtube.com/watch?v=m5jJkvCG338', 'created_at': '2024-03-02T00:00:00.000Z', 'company_name': 'NEAR Foundation', 'segment_start_time': 520.631, 'segment_end_time': 599.414, 'text': "And we need our systems, which right now rely on paperwork, on unsecure connections, on the ability to look at the content and don't know where it came from, to really leverage cryptography, leverage blockchain, leverage all of these technologies we're building to AI-proof it. It's about decentralized and transparent digital systems that will allow to have incentives to be transparent and clear to everyone, instead of right now you have opaque systems inside bigger companies and bigger banks. It's new collaboration structures that we can all come together to promote open source, to develop new tooling, to enable it to be used by everyone, and if you are making money off it, to contribute back in kind. And finally, it's about scaling the markets and allowing anybody to participate in an open way without boundaries, without trying to prove your background or where you came from or what's any other property, but really being able to participate. So we are kind of, as Nir, been always thinking about this. And for us, this all comes together as self-sovereign operating system. It's really something that, as we kind of interact with computing, we need a different way of doing this. And now it builds up on traditional operating systems, Web2 operating systems. There's a huge component of private data and decentralized data.", 'speaker': 'Illia Polosukhin', 'segment_id': 7, 'doc_id': 'm5jJkvCG338.7'}, {'episode_id': 'riq5lSWovBQ', 'episode_title': 'The Frontier Is Feminine: How SheFi Empowers Women to Build in Web3 | Jules Worring, Maggie Love', 'episode_url': 'https://www.youtube.com/watch?v=riq5lSWovBQ', 'created_at': '2024-03-02T00:00:00.000Z', 'company_name': '__OTHERS__', 'segment_start_time': 830.896, 'segment_end_time': 855.338, 'text': "I mean, I really loved how thorough I would say you were in terms of explaining things. That was super helpful. But in terms of the job hunt, last year was tough for a lot of people in terms of layoffs and things like that. And I loved how I would say I think you're maybe one of two people that I personally know where you were legit individually recommending so many people to different job opportunities.", 'speaker': 'Michelle', 'segment_id': 17, 'doc_id': 'riq5lSWovBQ.17'}, {'episode_id': 'ciRNeORJMJI', 'episode_title': 'From Idea to Reality: Transforming User Experience in Web3 | Fabian Vogelsteller - LUKSO', 'episode_url': 'https://www.youtube.com/watch?v=ciRNeORJMJI', 'created_at': '2024-03-01T00:00:00.000Z', 'company_name': 'Lukso', 'segment_start_time': 416.701, 'segment_end_time': 483.603, 'text': "Every single piece in this account is a standard in itself. Pieced together, it works as a profile, and works very well as a profile. So the pink part here is the metadata standards, and the blue part here is basically the functions and what it has. And each of these standards work by themselves and can also be used in different contexts. As a developer, you're probably thinking, oh my god, if there is this new thing, and it all looks fancy, and this is a new way to do something on the blockchain, and LUKSO, this is what you do there. That now requires me to change all my apps, and now I need to adopt something new. And the truth is actually not. You can literally interact with the browser extension and it does all the heavy lifting for you. So you just call request accounts. You get your account back. And instead of getting a public key back, like you do in any wallet right now, you get a smart content address. And then you just send your transactions as usual.", 'speaker': 'Fabian Vogelsteller', 'segment_id': 4, 'doc_id': 'ciRNeORJMJI.4'}]
+2024-08-15 11:32:17,968 - INFO - query is as follows.
+2024-08-15 11:32:17,968 - INFO - query_string='What is the key objective of DeFi according to Slater Heil?' size=5 index_name='eth_denver' custom_fields=None version=Version(major=0, minor=5, patch=4) results=None
+2024-08-15 11:33:21,130 - INFO - 
+
+
+
+
+2024-08-15 11:33:21,130 - INFO - start the evaluate semantic.
+2024-08-15 11:33:21,130 - INFO - query source is as follows.
+2024-08-15 11:33:21,130 - INFO - [{'episode_id': '_tGxAKso-WA', 'episode_title': '#ETHDenver24 - Submarine Stage - Prysm in 2024 2024-02-28 17:41', 'episode_url': 'https://www.youtube.com/watch?v=_tGxAKso-WA', 'created_at': '2024-02-28T00:00:00.000Z', 'company_name': '__OTHERS__', 'segment_start_time': 2606.792, 'segment_end_time': 2697.643, 'text': "Yeah, I can listen. I think what Zack said is very correct. I think it really depends on who you are. You know, there's great academic learning resources out there. Coursera has a great and free cryptography course that teaches you the basics of cryptography. There's tons of YouTube videos on So learning about zero knowledge proves there is obviously amazing libraries that you can hack around with. If that's what you do, just starting to play around with. I think one thing that really, one advice that I would give is that it's really helpful to be comfortable with abstraction. So for example, sometimes it's good to dive deep and know exactly how something works. But sometimes it's also very useful to just know what it does. So for example, if you just understand what a zero-knowledge proof does, it allows you to prove that something is true without revealing why it's true. That's sometimes OK to understand everything you need. You don't need to understand how they work. Or sometimes I get people that come to me. It's like, oh, I started to learn about zero-knowledge proof, and then I got stuck at elliptic curves. And I'm like, I don't really know how elliptic curves work either. That's way deep down the line. You don't need to know that. You can just be comfortable with some abstraction of it, and then just knowing how some things work, and then you can build on top of these things. But yeah, I think hacking around with a library is one of the best ways to start.", 'speaker': 'Benik Bunz', 'segment_id': 78, 'doc_id': '_tGxAKso-WA.78'}, {'episode_id': 'XoyvZxOe4Ww', 'episode_title': "#ETHDen24 - Submarine - Freedom to Game: Let's Vampire Attack Web2 2024-03-01 18:15", 'episode_url': 'https://www.youtube.com/watch?v=XoyvZxOe4Ww', 'created_at': '2024-03-01T00:00:00.000Z', 'company_name': '__OTHERS__', 'segment_start_time': 22732.18, 'segment_end_time': 22787.207, 'text': "I shouldn't get a wrapped synthetic version of that token. And the second requirement is that we should have super low latency for cross-chain interactions, both asynchronous and synchronous. So if we think about the current state, we don't have either of those things, right? If we want to bridge trustlessly between two L2s, like let's say we want to go from Polygon ZKVM to Arbitrum or to ZKSync. I need to take my ETH on Polygon ZKVM, I create a transaction to withdraw that ETH, I have to wait for a proof to be generated, I need to wait for that proof to be verified on L1, for that block to be confirmed, and then for my deposit to be credited to Arbitrum or ZKSync. So all in, that takes like 40 minutes. And so that's an unacceptably long time and delay for good UX and for unified liquidity.", 'speaker': 'SPEAKER_23', 'segment_id': 206, 'doc_id': 'XoyvZxOe4Ww.206'}, {'episode_id': 'wePegGHDNv4', 'episode_title': 'Unlocking the Past: Building Trustless dApps With Relic | Tim Becker - ChainLight', 'episode_url': 'https://www.youtube.com/watch?v=wePegGHDNv4', 'created_at': '2024-02-27T00:00:00.000Z', 'company_name': 'Chainlight', 'segment_start_time': 131.801, 'segment_end_time': 215.007, 'text': "And just as a simple motivating example, we can say, what if your contract wanted to know who owned this Pudgy Penguin at block 15 million? So this is a very simple question you can ask an RPC provider like Infera or Alchemy, and of course you can also query any archive node, and they'll be able to answer this question for you very easily. But if you were to pick a random node on the Ethereum network, you would instead get this horrible error message about some missing tri-node, and it will completely fail to answer this question. And the reason for that is that on Ethereum, old data is pruned away for most nodes. It's only required that nodes keep the current state of the chain. And so once the data gets old enough and is finalized, most nodes will prune it away to reduce disk space and make it easier to run nodes. But if you look at how this data is actually stored, so basically everything of interest is either in the block header or in a Merkle-Patricia tri, which is committed to by the block header. And this includes all of the account balances, all of the storage, transactions, logs, everything. And because it's in this Merkle Patricia tri, which is kind of like a Merkle tree, you can generate very short proofs of any data in the tree that you want relative to the size of the tree.", 'speaker': 'Tim Becker', 'segment_id': 2, 'doc_id': 'wePegGHDNv4.2'}]
+2024-08-15 11:33:21,131 - INFO - query is as follows.
+2024-08-15 11:33:21,131 - INFO - query_string='How does asynchronous composability currently affect interoperability and security?' size=5 index_name='eth_denver' custom_fields=None version=Version(major=0, minor=5, patch=4) results=None

@@ -1,0 +1,68 @@
+
+
+***********************************************Denver Search Synapse entered*********************************************
+
+
+count ==  0, 0, 1
+query ==  query_string='What is the key objective of DeFi according to Slater Heil?' size=5 index_name='eth_denver' custom_fields=None version=Version(major=0, minor=5, patch=2) results=None
+length of ranked_docs is like this,  10
+this is the time before LLM
+1.843797
+llm_ranking_scores is as follows 
+
+[0, 1, 0, 0, 0, 0, 1, 1, 0, 1]
+sorted_indeices are as follows.
+
+[1, 6, 7, 9, 0, 2, 3, 4, 5, 8]
+processed DenverSearchSynapse in 7.119269 seconds
+
+
+***********************************************Denver Search Synapse entered*********************************************
+
+
+count ==  0, 0, 1
+query ==  query_string='What is the key objective of DeFi according to Slater Heil?' size=5 index_name='eth_denver' custom_fields=None version=Version(major=0, minor=5, patch=2) results=None
+length of ranked_docs is like this,  10
+this is the time before LLM
+2.333802
+llm_ranking_scores is as follows 
+
+[0, 1, 0, 0, 0, 0, 1, 1, 0, 1]
+sorted_indeices are as follows.
+
+[1, 6, 7, 9, 0, 2, 3, 4, 5, 8]
+processed DenverSearchSynapse in 8.253276 seconds
+
+
+***********************************************Denver Search Synapse entered*********************************************
+
+
+count ==  0, 0, 2
+query ==  query_string='How does asynchronous composability currently affect interoperability and security?' size=5 index_name='eth_denver' custom_fields=None version=Version(major=0, minor=5, patch=2) results=None
+length of ranked_docs is like this,  8
+this is the time before LLM
+1.407811
+llm_ranking_scores is as follows 
+
+[1, 0, 1, 1, 0.5, 1, 1, 1]
+sorted_indeices are as follows.
+
+[0, 2, 3, 5, 6, 7, 4, 1]
+processed DenverSearchSynapse in 7.16856 seconds
+
+
+***********************************************Denver Search Synapse entered*********************************************
+
+
+count ==  0, 0, 3
+query ==  query_string='What steps should a person take immediately for handling digital assets upon realizing their mortality?' size=5 index_name='eth_denver' custom_fields=None version=Version(major=0, minor=5, patch=2) results=None
+length of ranked_docs is like this,  11
+this is the time before LLM
+2.783831
+llm_ranking_scores is as follows 
+
+[1, 1, 1, 1, 0.5, 1, 1, 1, 0.5, 0, 1]
+sorted_indeices are as follows.
+
+[0, 1, 2, 3, 5, 6, 7, 10, 4, 8, 9]
+processed DenverSearchSynapse in 7.621993 seconds
